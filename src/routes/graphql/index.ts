@@ -23,7 +23,6 @@ const plugin: FastifyPluginAsyncTypebox = async (fastify) => {
         contextValue: { prisma, httpErrors },
         variableValues: variables,
       });
-      // console.log('response', response);
       return response;
     },
   });
